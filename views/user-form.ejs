@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EJS Example</title>
+    <link href="/public/tailwind.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Submit Form</h1>
+    <form action="/api/users" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" /><br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" /><br /><br />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
